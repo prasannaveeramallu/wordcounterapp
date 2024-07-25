@@ -1,0 +1,16 @@
+{%extends 'base.html'%}
+
+{%block content%}
+{% load static %}    
+<link rel="stylesheet" href="{% static 'base.css' %}">
+<div class="arrange">
+    <h1>Enter text below </h1> <br>
+    <form action="add" method="post">
+        {% csrf_token %}
+        <textarea name="res" placeholder="Enter your text here" rows="10" cols="40"></textarea> <br>
+        <button type="submit">Count the number of words</button>
+    </form>
+</div>
+
+
+{%endblock%}

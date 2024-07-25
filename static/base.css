@@ -1,0 +1,49 @@
+.div-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(173, 173, 255);
+    align-items: center;
+    
+    
+}
+
+.arrange{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    color: white;
+}
+
+textarea{
+    border-radius: 5px;
+    border-color: rgb(241, 202, 142);
+}
+
+button{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(122, 122, 204);
+    color: white;
+    padding: 5px;
+    margin: 3px;
+
+}
+
+.result-container{
+    background-color: rgb(231, 231, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+.result-text{
+    color: rgb(145, 145, 241);
+}
+.flex-div{
+    display: flex;
+    
+}

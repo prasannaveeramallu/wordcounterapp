@@ -1,0 +1,13 @@
+{%extends 'base.html'%}
+
+{%block content%}
+{% load static %}    
+<link rel="stylesheet" href="{% static 'base.css' %}">
+<div class="flex-div">
+    <div class="result-container">
+        <h1 class="result-text">Number of words : {{no_of_words}}</h1> 
+    </div>
+</div>
+
+
+{%endblock%}
